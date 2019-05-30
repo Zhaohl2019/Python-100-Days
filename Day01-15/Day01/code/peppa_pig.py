@@ -197,8 +197,8 @@ def main():
     eyes(0, 140)
     cheek(80, 10)
     mouth(-20, 30)
-    done()
+    #done()
 
 
-if __name__ == '__main__':
-    main()
+#if __name__ == '__main__':
+#    main()
