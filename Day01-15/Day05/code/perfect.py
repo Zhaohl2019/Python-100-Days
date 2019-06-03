@@ -10,7 +10,7 @@ Date: 2018-03-02
 import time
 import math
 
-start = time.clock()
+start = time.time()
 for num in range(1, 10000):
     sum = 0
     for factor in range(1, int(math.sqrt(num)) + 1):
@@ -20,7 +20,7 @@ for num in range(1, 10000):
                 sum += num / factor
     if sum == num:
         print(num)
-end = time.clock()
+end = time.time()
 print("执行时间:", (end - start), "秒")
 
 # 通过比较上面两种不同的解决方案的执行时间 意识到优化程序的重要性
