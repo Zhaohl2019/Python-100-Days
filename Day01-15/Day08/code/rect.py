@@ -29,7 +29,7 @@ class Rect(object):
 
     def __del__(self):
         """析构器"""
-        print('销毁矩形对象')
+        print('销毁矩形对象'+str(self.__width))
 
 
 if __name__ == '__main__':

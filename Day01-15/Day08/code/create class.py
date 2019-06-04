@@ -18,8 +18,8 @@ def foo(self, course_name):
 def main():
     Student = type('Student', (object,), dict(__init__=bar, study=foo))
     stu1 = Student('骆昊')
-    stu1.study('Python程序设计')
-
+    stu1.study('Python程序设计')#骆昊正在学习Python程序设计.
+    print(type(Student))#<class 'type'>
 
 if __name__ == '__main__':
     main()  
