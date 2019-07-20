@@ -36,7 +36,7 @@ class AddMoneyThread(Thread):
 
 
 def main():
-    account = Account(1000)
+    account = Account(0)
     tlist = []
     for _ in range(100):
         t = AddMoneyThread(account)
